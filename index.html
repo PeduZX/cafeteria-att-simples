@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+      <style>
+       
+        header{
+            background-color:rgb(185, 184, 184) ;
+            box-shadow: 3px 3px 3px;
+            height: 60px;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        img{
+            height: 200px;
+            width: 300px;
+        }
+        h1{
+            text-align: center;
+        }
+        #h1-cardapio{
+          font-family: Arial, Helvetica, sans-serif;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <h1>Café do Pim</h1>
+    </header>
+    <h1 id="h1-cardapio">Cardápio</h1>
+    
+    
+    <div class="container">
+ 
+           <div class="cafe-caseiro">
+            <h3>café caseiro</h3>
+            <a href="pgcaseiro.html"><img src="/Interface do Café revisão/Cafe-caseiro html.jpeg" alt="cafe cafe caseiro" ></a>
+           </div>
+
+           <div class="cafe-italiano">
+            <h3>café italiano</h3>
+            <a href="pgitaliano.html"><img src="/Interface do Café revisão/cafe-italiano html.png" alt="cafe italiano"></a>
+           </div>
+
+           <div class="cafe-capuccino">
+            <h3>café capuccino</h3>
+            <a href="pgcapuccino.html"><img src="/Interface do Café revisão/cafe-capuccino html.jfif" alt=" cafe capuccino"></a>
+           </div>
+
+           <div class="cafe-extForte">
+            <h3>café extra forte</h3>
+            <a href="pgextraforte.html"><img src="/Interface do Café revisão/cafe-extra-forte html.webp" alt="cafe extra forte  "></a>
+           </div>
+    </div>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+
+
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+</body>
+</html>
